@@ -1,6 +1,6 @@
 # MMP <img src="https://github.com/NatalieKAndersson/MMP/blob/main/Images/MMP_logo.PNG" align = "right" width="180"/>
 
-The modified maximum parsimony (MMP) is an algorithm for phylogenetic reconstruction from multiregional sampling data that can incorporate information from SNP-array, WES, WGS, TDS etc. in unison or separately. It uses an event matrix along with information about each alteration's size in each sample as input and creates a phylogeny that makes sure the pigeon hole principle is not violated in any of them.
+The modified maximum parsimony (MMP) is an algorithm for phylogenetic reconstruction from multiregional sampling data that can incorporate information from SNP-array, WES, WGS, TDS etc. in unison or separately. It uses an event matrix along with information about each alteration's size in each sample as input and creates a phylogeny that makes sure the pigeonhole principle is not violated in any of them.
 
 <a href="https://zenodo.org/badge/latestdoi/297145258"><img src="https://zenodo.org/badge/297145258.svg" alt="DOI"></a>
 
