@@ -37,5 +37,10 @@ If no error message has appeared, we are good to go!
 ## Usage
 We are now ready to load some data and get going! At the top of the script you have to set the path i.e. the location of the files that will be analyzed.
 ```R
-setwd("~/yourpath")
+setwd("~/yourpath") #Should be where the DEVOLUTION-file is.
+MMP_tree <- MMP(file="DEVOLUTION.xlsx",tumorname=x) #The output is the tree object.
+
+- **File:** The filename of the output excel file from DEVOLUTION. This contains the event matrix, clustering and pie sizes. The algorithm uses the pie sizes etc. to minimize contradictions where “a larger pie comes after a smaller one” in the tree.
+- **Tumorname:** The name of the tumor you are analyzing. In the function this is only used when the output file is saved in the end of the algorithm.
+- The output of the MMP-function is the phylogenetic tree in the shape of a so called “phylo object” which can be plotted with ggplot.
 ```
