@@ -39,8 +39,22 @@ We are now ready to load some data and get going! At the top of the script you h
 ```R
 setwd("~/yourpath") #Should be where the DEVOLUTION-file is.
 MMP_tree <- MMP(file="DEVOLUTION.xlsx",tumorname=x) #The output is the tree object.
-
+```
 - **File:** The filename of the output excel file from DEVOLUTION. This contains the event matrix, clustering and pie sizes. The algorithm uses the pie sizes etc. to minimize contradictions where “a larger pie comes after a smaller one” in the tree.
 - **Tumorname:** The name of the tumor you are analyzing. In the function this is only used when the output file is saved in the end of the algorithm.
-- The output of the MMP-function is the phylogenetic tree in the shape of a so called “phylo object” which can be plotted with ggplot.
+
+## Plot the phylogeny
+The output of the MMP-function is the phylogenetic tree in the shape of a so called “phylo object” which can be plotted with ggplot.
+
+```R
+#Plot the MMP-tree
+limitmmp <- xlim(c(0,15))
+Treemmp <- ggplot(MMP_tree) + geom_tree() + geom_tiplab(size=4, color = "black") #vjust -0.7.+ geom_treescale(width = 1)
+Treemmp <- Treemmp +  theme_tree() + limitmmp+theme(plot.title = element_text(hjust = 0.5, size = (14), color = "black"))
+print(Treemmp)
+
+pietree_mmp <- pie_it(Treemmp,pieData,offset=1,size=0.15,col=coltype) #Adds pie charts to the tree. 0.21. Used 0.17 lately.
+
+ggsave(pietree_mp,filename=paste(x,"_mmp",".png",sep=""),width = s,height = s) #Saving the image.
+ggsave(pietree_mp,filename=paste(x,"_mmp",".pdf",sep=""),width = s,height = s) #Saving the image.
 ```
