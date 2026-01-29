@@ -4,7 +4,10 @@ The modified maximum parsimony (MMP) is an algorithm for phylogenetic reconstruc
 
 <a href="https://zenodo.org/badge/latestdoi/297145258"><img src="https://zenodo.org/badge/297145258.svg" alt="DOI"></a>
 
-When using the algorithm, please cite: Rastegar, B., Andersson, N....
+When using the algorithm, please cite: Rastegar, B., Andersson, N., ... & Gisselsson, D. (2023). Resolving the pathogenesis of anaplastic Wilms tumors through spatial mapping of cancer cell evolution. Clinical Cancer Research, 29(14), 2668-2677.
+
+More information about the MMP-algorithm can be read here (page 116-118).
+https://portal.research.lu.se/sv/publications/phylogenetic-analysis-of-pediatric-tumors/
 
 ## Setting up MMP
 
