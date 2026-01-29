@@ -67,5 +67,6 @@ Overview of the algorithm workflow:
 More information about the MMP-algorithm can be read here (page 116-118).
 https://portal.research.lu.se/sv/publications/phylogenetic-analysis-of-pediatric-tumors/
 
-<img src="https://github.com/NatalieKAndersson/MMP/blob/main/Images/MMP_workflow_1.png" align = "right" width="180"/>
-<img src="https://github.com/NatalieKAndersson/MMP/blob/main/Images/MMP_workflow_2.png" align = "right" width="180"/>
+<img src="https://github.com/NatalieKAndersson/MMP/blob/main/Images/MMP_workflow_1.png" align = "left" width="800"/>
+
+<img src="https://github.com/NatalieKAndersson/MMP/blob/main/Images/MMP_workflow_2.png" align = "left" width="800"/>
