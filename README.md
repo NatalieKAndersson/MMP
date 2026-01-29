@@ -3,6 +3,7 @@
 The modified maximum parsimony (MMP) is an algorithm for phylogenetic reconstruction from multiregional sampling data that can incorporate information from SNP-array, WES, WGS, TDS etc. in unison or separately. It uses an event matrix along with information about each alteration's size in each sample as input and creates a phylogeny that makes sure the pigeonhole principle is not violated in any of them.
 
 <a href="https://zenodo.org/badge/latestdoi/297145258"><img src="https://zenodo.org/badge/297145258.svg" alt="DOI"></a>
+https://zenodo.org/badge/latestdoi/297145258
 
 When using the algorithm, please cite: Rastegar, B., Andersson, N., ... & Gisselsson, D. (2023). Resolving the pathogenesis of anaplastic Wilms tumors through spatial mapping of cancer cell evolution. Clinical Cancer Research, 29(14), 2668-2677.
 
@@ -61,3 +62,6 @@ pietree_mmp <- pie_it(Treemmp,pieData,offset=1,size=0.15,col=coltype) #Adds pie 
 ggsave(pietree_mp,filename=paste(x,"_mmp",".png",sep=""),width = s,height = s) #Saving the image.
 ggsave(pietree_mp,filename=paste(x,"_mmp",".pdf",sep=""),width = s,height = s) #Saving the image.
 ```
+## Workflow
+<img src="https://github.com/NatalieKAndersson/MMP/blob/main/Images/MMP_workflow_1.PDF" align = "right" width="180"/>
+<img src="https://github.com/NatalieKAndersson/MMP/blob/main/Images/MMP_workflow_2.PDF" align = "right" width="180"/>
