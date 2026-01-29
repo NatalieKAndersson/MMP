@@ -63,5 +63,9 @@ ggsave(pietree_mp,filename=paste(x,"_mmp",".png",sep=""),width = s,height = s) #
 ggsave(pietree_mp,filename=paste(x,"_mmp",".pdf",sep=""),width = s,height = s) #Saving the image.
 ```
 ## Workflow
-<img src="https://github.com/NatalieKAndersson/MMP/blob/main/Images/MMP_workflow_1.PDF" align = "right" width="180"/>
-<img src="https://github.com/NatalieKAndersson/MMP/blob/main/Images/MMP_workflow_2.PDF" align = "right" width="180"/>
+Overview of the algorithm workflow:
+More information about the MMP-algorithm can be read here (page 116-118).
+https://portal.research.lu.se/sv/publications/phylogenetic-analysis-of-pediatric-tumors/
+
+<img src="https://github.com/NatalieKAndersson/MMP/blob/main/Images/MMP_workflow_1.png" align = "right" width="180"/>
+<img src="https://github.com/NatalieKAndersson/MMP/blob/main/Images/MMP_workflow_2.png" align = "right" width="180"/>
